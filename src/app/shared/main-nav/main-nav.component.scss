@@ -6,10 +6,13 @@
 .sidenav {
   width: 200px;
   background: rgba(241, 241, 241, 0.5);
+  color: #050a30;
 }
 
 .sidenav .mat-toolbar {
   background: inherit;
+  color: #050a30;
+
 }
 
 @media (min-width: 10000px) {
@@ -24,5 +27,13 @@
   // background: rgba(241, 241, 241, 0.5);
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-  
+}
+
+.topmenubutton {
+  margin: 40px;
+}
+
+.topMenuButtonActivated {
+  color: #FFAE42;
+  text-decoration: underline;
 }
