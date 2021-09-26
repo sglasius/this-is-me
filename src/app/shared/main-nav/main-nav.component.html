@@ -3,8 +3,6 @@
     [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'">
     <mat-toolbar>Navigation</mat-toolbar>
     <mat-nav-list>
-      <!-- <a mat-list-item href="#">Landing</a>
-      <a mat-list-item href="#">Showtimes</a> -->
       <div class="topmenubutton" routerLink="/landing"
         [ngClass]="{'topMenuButtonActivated': isButtonActive('/landing')}">LANDING</div>
       <div class="topmenubutton" routerLink="/showtimes"
