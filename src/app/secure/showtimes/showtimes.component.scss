@@ -1,11 +1,31 @@
 .showtimes-wrapper {
-    width: 40%;
+    width: 45%;
     margin: 0 auto;
+}
+
+.tab-group {
+    width: 100%;
+    padding: 0%;
+    overflow: hidden;
 }
 
 .search-input {
     margin-top: 10%;
     margin-bottom: 2%;
-    width: 100%;
+    width: 99%;
     font-size: 2em;
+}
+
+.movie-card {
+    border-radius: 0%;
+}
+
+.movie-card img {
+    height: 100%;
+}
+
+.not-bold {
+    font-weight:normal;
+    font-size: 60%;
+    opacity: 0.5;
 }
