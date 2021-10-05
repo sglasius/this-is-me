@@ -1,3 +1,7 @@
+#
+Made with Angular 12
+ng serve --open to run locally
+
 # Frontend Assignment
 
 ## Introduction
